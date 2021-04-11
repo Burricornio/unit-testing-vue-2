@@ -2,7 +2,7 @@ import { shallowMount } from '@vue/test-utils'
 import AppHeader from '@/components/AppHeader.vue'
 
 // Test suite
-describe('AppHeader', () => {
+describe('AppHeader suite', () => {
   it('If user is not logged in, do not show logout button', () => {
     const wrapper = shallowMount(AppHeader)
 

@@ -1,20 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
+    <h1>Examples</h1>
+    <hr />
+    <p>RandomNumber component (testing props and user interaction)</p>
     <RandomNumber />
+    <br />
+    <hr />
+    <p>LoginForm component example (testing emitted events)</p>
+    <LoginForm />
+    <br />
+    <hr />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import RandomNumber from '@/components/RandomNumber.vue'
-import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
+import LoginForm from '@/components/LoginForm.vue'
 
 @Component({
   components: {
-    HelloWorld,
     RandomNumber,
+    LoginForm,
   },
 })
 export default class Home extends Vue {}
