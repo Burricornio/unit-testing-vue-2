@@ -9,7 +9,6 @@
 </template>
 
 <script lang="ts">
-// https://vue-test-utils.vuejs.org/guides/using-with-vuex.html
 import { Component, Vue } from 'vue-property-decorator'
 import { mapActions } from 'vuex'
 
