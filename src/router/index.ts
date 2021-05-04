@@ -19,6 +19,18 @@ const routes: Array<RouteConfig> = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/TodoView.vue'),
   },
+  {
+    path: '/api',
+    name: 'APIview',
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/APIView.vue'),
+  },
+  {
+    path: '/vuex',
+    name: 'VuexTestingview',
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/VuexTestingView.vue'),
+  },
 ]
 
 const router = new VueRouter({

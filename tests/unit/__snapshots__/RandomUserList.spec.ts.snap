@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RandomUserList suite Should match snapshots 1`] = `
+<div>
+  <div>
+    <div class="person">
+      <div class="person__header"><img src="" alt="[object Object]" class="rounded img-thumbnail">
+        <div class="person__name">
+
+        </div>
+      </div>
+      <div class="person__email"><a href="mailto:undefined"></a></div>
+      <div class="person__address">
+        <address>
+
+
+
+        </address>
+      </div>
+    </div>
+  </div>
+</div>
+`;
