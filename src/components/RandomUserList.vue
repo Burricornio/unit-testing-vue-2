@@ -35,11 +35,10 @@ import axios from 'axios'
 export default class RandomUserList extends Vue {
   people = []
 
-  async created(): void {
+  async created(): Promise<void> {
     try {
       const response = await axios.get(`https://randomuser.me/api/?results=6`)
       this.people = response.data.results
-      console.log(response.data)
       // eslint-disable-next-line no-empty
     } catch (error) {}
   }

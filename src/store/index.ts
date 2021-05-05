@@ -4,8 +4,14 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {},
+  state: {
+    paco: 'poaco',
+  },
   mutations: {},
-  actions: {},
+  actions: {
+    actionClick() {
+      console.log('Click a topeeeeeee')
+    },
+  },
   modules: {},
 })
